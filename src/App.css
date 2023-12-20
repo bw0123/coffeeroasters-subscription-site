@@ -1,17 +1,17 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
   padding: 2rem;
+  margin: 0 auto;
   text-align: center;
 }
 
 body {
   background-color: #FEFCF7;
   font-family: 'Barlow', sans-serif;
-  font-size: 1em;  /* default 16px */
+  font-size: 16px;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, button {
   font-family: 'Fraunces', serif;
 }
 
@@ -21,18 +21,75 @@ h1 {
 }
 
 h2 {
-  font-weight: 500 /* medium */
+  font-weight: 500; /* medium */
   font-size: 2.5em;
 }
 
 h3 {
-  font-weight: 400 /* regular */
+  font-weight: 400; /* regular */
   font-size: 2em;
 
 }
 
 h4 {
-  font-weight: 300 /* light */
+  font-weight: 300; /* light */
   font-size: 1.5em;
 }
 
+img, button {
+  border-radius: 5px;
+}
+
+button {
+  border: none;
+  color: #FEFCF7;
+  font-weight: 700;
+  font-size: 1.1em;
+  padding: 15px 30px;
+}
+
+.main-btn-default {
+  background-color: #0E8784;
+  margin-top: 40px;
+}
+
+/* Header */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  font-weight: bold;
+  color: #83888F;
+  text-transform: uppercase;
+}
+
+.nav-menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-menu ul li{
+  margin-left: 1.5rem;
+}
+
+.coffeepress-container {
+  position: relative;
+  margin-top: 32px; /* same as 2rem */
+}
+
+.coffeepress-txt-container {
+  position: absolute;
+  top: 10%;
+  left: 7%;
+  text-align: start;
+  color: #FEFCF7;
+}
+
+.coffeepress-txt-container p {
+  margin-top: -15px;
+  line-height: 26px;
+}

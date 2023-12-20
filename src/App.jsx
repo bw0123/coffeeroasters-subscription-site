@@ -1,9 +1,10 @@
+import LandingPage from './components/LandingPage'
 import './App.css'
 
 function App() {
   return (
     <>
-      <h2>hello world</h2>
+      <LandingPage />
     </>
   )
 }
