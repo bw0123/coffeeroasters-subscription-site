@@ -8,6 +8,18 @@ function WhyChoose() {
                     you are more impactful experience on every level.
                 </p>
             </div>
+            <div class='why-card-container'>
+                <div class='why-label'>
+                    <h4>Best quality</h4>
+                    <h4>Exclusive benefits</h4>
+                    <h4>Free shipping</h4>
+                </div>
+                <div class='why-desc'>
+                    <p>Discover an endless variety of the<br></br>world's best artisann coffee from each<br></br>of our roasters.</p>
+                    <p>Special offers and swag when you<br></br>subscribe, including 30% off your<br></br>first shipment.</p>
+                    <p>We cover the cost and coffee is<br></br>delivered fast. Peak freshness:<br></br>guarenteed.</p>
+                </div>
+            </div>
         </section>
     )
 }
