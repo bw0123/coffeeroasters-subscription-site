@@ -3,16 +3,22 @@
   padding: 2rem;
   margin: 0 auto;
   text-align: center;
+  font-size: 16px;
 }
 
 body {
   background-color: #FEFCF7;
   font-family: 'Barlow', sans-serif;
-  font-size: 16px;
 }
 
+main, section {
+  position: relative;
+  margin-top: 32px; /* same as 2rem */
+}
 
-h1, h3, h3, h4, button {
+/* Main font */
+h1, h3, h3, h4, button,
+.why-choose-txt-container h2{
   font-family: 'Fraunces', serif;
 }
 
@@ -41,17 +47,6 @@ img, button {
   border-radius: 10px;
 }
 
-button, 
-.coffeepress-txt-container {
-  color: #FEFCF7;
-}
-
-button, 
-.nav-menu,
-.collection-label h4 {
-  font-weight: 700;
-
-}
 
 button {
   border: none;
@@ -64,7 +59,30 @@ button {
   background-color: #0E8784;
 }
 
-/* Header */
+/* Light text color */
+button, 
+.coffeepress-txt-container,
+.why-choose-txt-container {
+  color: #FEFCF7;
+}
+
+/* Bold text */
+button, 
+.nav-menu,
+.collection-label h4,
+.why-choose-txt-container h2 {
+  font-weight: 700;
+
+}
+
+/* Line height: 26px */
+.coffeepress-txt-container p,
+.collection-desc,
+.why-choose-txt-container h2 {
+  line-height: 26px;
+}
+
+/*** Header component ***/
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -73,8 +91,6 @@ button {
 
 .nav-menu {
   display: flex;
-  color: #83888F;
-  text-transform: uppercase;
 }
 
 .nav-menu ul {
@@ -84,14 +100,12 @@ button {
 
 .nav-menu ul li{
   margin-left: 1.5rem;
+  color: #83888F;
+  text-transform: uppercase;
+  line-height: 15px;
 }
 
-/* Home */
-.coffeepress-container {
-  position: relative;
-  margin-top: 32px; /* same as 2rem */
-}
-
+/*** Home ***/
 .coffeepress-txt-container {
   position: absolute;
   top: 10%;
@@ -101,15 +115,14 @@ button {
 
 .coffeepress-txt-container p {
   margin: -15px 0 40px 0;
-  line-height: 26px;
 }
 
+/*** Collection component ***/
 #our-collection {
-  font-size: 150px;
+  font-size: 9.375em; /* 150px */
   background: -webkit-linear-gradient(#979797, #eee);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-top: 
 }
 
 .collection-flex-container,
@@ -149,7 +162,15 @@ button {
 }
 
 .collection-desc {
-  line-height: 26px;
   margin-top: -24px;
 }
+
+/* Why Choose component */
+.why-choose-container {
+  background: #2C343E;
+  height: 570px;
+  width: 1280px;
+}
+
+
 
