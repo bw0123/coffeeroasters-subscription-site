@@ -5,17 +5,14 @@
   text-align: center;
 }
 
-section {
-  padding: 2rem;
-}
-
 body {
   background-color: #FEFCF7;
   font-family: 'Barlow', sans-serif;
   font-size: 16px;
 }
 
-h1, h2, h3, h4, button {
+
+h1, h3, h3, h4, button {
   font-family: 'Fraunces', serif;
 }
 
@@ -44,10 +41,20 @@ img, button {
   border-radius: 10px;
 }
 
+button, 
+.coffeepress-txt-container {
+  color: #FEFCF7;
+}
+
+button, 
+.nav-menu,
+.collection-label h4 {
+  font-weight: 700;
+
+}
+
 button {
   border: none;
-  color: #FEFCF7;
-  font-weight: 700;
   font-size: 1.1em;
   padding: 15px 30px;
 }
@@ -66,7 +73,6 @@ button {
 
 .nav-menu {
   display: flex;
-  font-weight: bold;
   color: #83888F;
   text-transform: uppercase;
 }
@@ -91,7 +97,6 @@ button {
   top: 10%;
   left: 7%;
   text-align: start;
-  color: #FEFCF7;
 }
 
 .coffeepress-txt-container p {
@@ -99,21 +104,52 @@ button {
   line-height: 26px;
 }
 
-#collection {
-  font-size: 6em;
-  background: -webkit-linear-gradient(#83888F, #eee);
+#our-collection {
+  font-size: 150px;
+  background: -webkit-linear-gradient(#979797, #eee);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-top: 
 }
 
-.collection-flex-container {
+.collection-flex-container,
+.collection-label,
+.collection-desc {
   display: flex;
   flex-wrap: wrap;
 }
 
-.collection-flex-container img {
+.collection-flex-container img,
+.collection-label h4,
+.collection-desc p {
   width: 25%;
   height: 25%
-  object-fit: cover;
-  
 }
+
+.collection-flex-container {
+  translate: 0 -75%;
+}
+
+.collection-flex-container img {
+  object-fit: cover;
+}
+
+.collection-label,
+.collection desc {
+  margin-top: -15%;
+}
+
+.collection-label h4, 
+.collection-desc p {
+  color: #333D4B;
+}
+
+.collection-label {
+  line-height: 32px;
+}
+
+.collection-desc {
+  line-height: 26px;
+  margin-top: -24px;
+}
+
