@@ -44,7 +44,7 @@ h4 {
 }
 
 img, button,
-.why-choose-container { 
+.why-choose-container, .why-card-container { 
   border-radius: 10px;
 }
 
@@ -63,7 +63,8 @@ button {
 /* Light text color */
 button, 
 .coffeepress-txt-container,
-.why-choose-txt-container {
+.why-choose-txt-container,
+.why-card-container {
   color: #FEFCF7;
 }
 
@@ -71,15 +72,21 @@ button,
 button, 
 .nav-menu,
 .collection-label h4,
-.why-choose-txt-container h2 {
+.why-choose-txt-container h2,
+.why-label {
   font-weight: 700;
+}
 
+/* Line height: 32px */
+.why-label {
+  line-height: 32px;
 }
 
 /* Line height: 26px */
 .coffeepress-txt-container p,
 .collection-desc,
-.why-choose-txt-container h2 {
+.why-choose-txt-container h2,
+.why-desc {
   line-height: 26px;
 }
 
@@ -175,8 +182,20 @@ button,
 
 .why-choose-txt-container {
   position: absolute;
-  top: 25%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+.why-card-global-container{
+  display: flex;
+  flex-wrap: no-wrap;
+  justify-content: space-evenly;
+}
+
+.why-card-container {
+  height: 380px;
+  width: 350px;
+  background: #0E8784;
+  margin-top: 25%;
+}
