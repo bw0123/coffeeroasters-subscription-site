@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+section {
+  padding: 2rem;
+}
+
 body {
   background-color: #FEFCF7;
   font-family: 'Barlow', sans-serif;
@@ -37,7 +41,7 @@ h4 {
 }
 
 img, button {
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 button {
@@ -48,9 +52,9 @@ button {
   padding: 15px 30px;
 }
 
+/* Custom Buttons */
 .main-btn-default {
   background-color: #0E8784;
-  margin-top: 40px;
 }
 
 /* Header */
@@ -76,6 +80,7 @@ button {
   margin-left: 1.5rem;
 }
 
+/* Home */
 .coffeepress-container {
   position: relative;
   margin-top: 32px; /* same as 2rem */
@@ -90,6 +95,25 @@ button {
 }
 
 .coffeepress-txt-container p {
-  margin-top: -15px;
+  margin: -15px 0 40px 0;
   line-height: 26px;
+}
+
+#collection {
+  font-size: 6em;
+  background: -webkit-linear-gradient(#83888F, #eee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.collection-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.collection-flex-container img {
+  width: 25%;
+  height: 25%
+  object-fit: cover;
+  
 }
