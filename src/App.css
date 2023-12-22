@@ -73,8 +73,10 @@ button,
   color: #83888F;
 }
 
-/* Grey blue color */
-.collection-label {
+/* Dark blue color */
+.collection-label,
+.how-step-label,
+.how-step-desc {
   color: #333D4B;
 }
 
@@ -84,20 +86,33 @@ button,
 .collection-label,
 #why-choose-title,
 .why-label,
-#how-it-works {
+#how-it-works,
+.how-step-label {
   font-weight: 700;
 }
 
 /* Line height */ 
+.how-step-number {
+  line-height: 72px;
+}
+
 .why-choose-title {
   line-height: 48px;
 
+}
+
+.how-step-label {
+  line-height: 36px;
 }
 
 .collection-label,
 .why-label,
 #how-it-works {
   line-height: 32px;
+}
+
+.how-step-desc {
+  line-height: 26px;
 }
 
 .coffeepress-txt-container p,
@@ -206,8 +221,21 @@ button,
 .how-container {
   height: 565px;
   width: 1045px;
+  text-align: start;
+  margin: 25% 5%;
 }
 
-#how-it-works {
-  margin: 25% 69% 80px 0;
+.how-flex-container {
+  display: flex;
+  flex-wrap: no-wrap;
+}
+
+.how-step-container {
+  height: 355px;
+  width: 285px;
+  margin-right: 5%;
+}
+
+.how-step-number {
+  color: #FDD6BA;
 }
