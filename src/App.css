@@ -82,16 +82,20 @@ button,
   font-weight: 700;
 }
 
-/* Line height: 32px */
+/* Line height */ 
+.why-choose-title {
+  line-height: 48px;
+
+}
+
 .collection-label,
 .why-label {
   line-height: 32px;
 }
 
-/* Line height: 26px */
 .coffeepress-txt-container p,
 .collection-desc,
-.why-choose-txt-container h2,
+.why-choose-desc,
 .why-desc {
   line-height: 26px;
 }
