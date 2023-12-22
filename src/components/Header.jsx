@@ -1,9 +1,9 @@
-import Logo from '../assets/icons/Logo'
+import { Logo } from '../assets/icons/Logo'
 
 function Header() {
     return(
         <header class='header-container'>
-                <Logo class='logo' />
+                <Logo />
                 <nav class='nav-menu'>
                     <ul>
                         <li>Home</li>
