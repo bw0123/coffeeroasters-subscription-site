@@ -3,7 +3,7 @@ import Coffeeroasters from '../assets/icons/Logo'
 function Header() {
     return(
         <header class='header-container'>
-                <Coffeeroasters />
+            <Coffeeroasters />
                 <nav class='nav-menu'>
                     <ul>
                         <li>Home</li>

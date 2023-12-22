@@ -48,7 +48,6 @@ img, button,
   border-radius: 10px;
 }
 
-
 button {
   border: none;
   font-size: 1.1em;
@@ -68,6 +67,12 @@ button,
   color: #FEFCF7;
 }
 
+/* Grey color */ 
+.nav-menu ul li,
+#how-it-works {
+  color: #83888F;
+}
+
 /* Grey blue color */
 .collection-label {
   color: #333D4B;
@@ -78,7 +83,8 @@ button,
 .nav-menu,
 .collection-label,
 #why-choose-title,
-.why-label {
+.why-label,
+#how-it-works {
   font-weight: 700;
 }
 
@@ -89,7 +95,8 @@ button,
 }
 
 .collection-label,
-.why-label {
+.why-label,
+#how-it-works {
   line-height: 32px;
 }
 
@@ -118,7 +125,6 @@ button,
 
 .nav-menu ul li{
   margin-left: 1.5rem;
-  color: #83888F;
   text-transform: uppercase;
   line-height: 15px;
 }
@@ -186,7 +192,6 @@ button,
   width: 350px;
   background: #0E8784;
   margin-top: 25%;
-  
 }
 
 .why-card-info {
@@ -195,4 +200,14 @@ button,
 
 #why-card-info-truck {
   margin-top: 36%;
+}
+
+/*** HowItWorks component ***/
+.how-container {
+  height: 565px;
+  width: 1045px;
+}
+
+#how-it-works {
+  margin: 25% 69% 80px 0;
 }
