@@ -225,6 +225,13 @@ button,
   margin: 25% 5%;
 }
 
+hr {
+  position: absolute;
+  top:70px;
+  width: 65%;
+  z-index:-1;
+}
+
 .how-flex-container {
   display: flex;
   flex-wrap: no-wrap;
