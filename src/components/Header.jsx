@@ -1,9 +1,9 @@
-import { Logo } from '../assets/icons/Logo'
+import Coffeeroasters from '../assets/icons/Logo'
 
 function Header() {
     return(
         <header class='header-container'>
-                <Logo />
+                <Coffeeroasters />
                 <nav class='nav-menu'>
                     <ul>
                         <li>Home</li>

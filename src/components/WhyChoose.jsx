@@ -15,7 +15,7 @@ function WhyChoose() {
             <div class='why-card-flex-container'>
                 <div class='why-card-container'>
                     <div class='why-card-info'>
-                    <Coffeebean />
+                        <Coffeebean />
                         <h4 class='why-label'>Best quality</h4>
                         <p class='why-desc'>Discover an endless variety of the<br></br>world's best artisann coffee from each<br></br>of our roasters.</p>
                     </div>
