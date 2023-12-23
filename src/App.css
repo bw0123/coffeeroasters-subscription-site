@@ -146,7 +146,7 @@ button,
 .collection-item-container {
   width: 25%;
   height: 25%;
-  translate: 0 -50%;
+  translate: 0 -40%;
 }
 
 .collection-item-container > img {
