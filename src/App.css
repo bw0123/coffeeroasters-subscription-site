@@ -185,7 +185,7 @@ button,
 /* Why Choose component */
 .why-choose-container {
   background: #2C343E;
-  height: 570px;
+  height: 577px;
   width: 1280px;
 }
 
@@ -238,7 +238,7 @@ hr {
 
 .how-flex-container {
   display: flex;
-  flex-wrap: no-wrap;
+  flex-wrap: wrap;
   margin-top: 80px;    /* affects hr margin-top */
 }
 
@@ -250,4 +250,7 @@ hr {
 
 .how-step-number {
   color: #FDD6BA;
+}
+
+#how-btn {
 }

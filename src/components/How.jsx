@@ -1,4 +1,5 @@
 import StepsOval from '../assets/icons/Oval'
+
 function How() {
     return(
         <section class='how-container'>
