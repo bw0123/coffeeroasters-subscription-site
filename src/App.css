@@ -6,9 +6,10 @@
   font-size: 16px;
 }
 
-body {
+body, p {
   background-color: #FEFCF7;
   font-family: 'Barlow', sans-serif;
+  line-height: 26px;
 }
 
 main, section {
@@ -25,22 +26,26 @@ h1, h3, h3, h4, button,
 h1 {
   font-weight: 700; /*bold*/
   font-size: 4.5em;
+  line-height: 72px;
 }
 
 h2 {
   font-weight: 500; /* medium */
   font-size: 2.5em;
+  line-height: 48px;
+
 }
 
 h3 {
   font-weight: 400; /* regular */
   font-size: 2em;
-
+  line-height: 36px;
 }
 
 h4 {
   font-weight: 300; /* light */
   font-size: 1.5em;
+  line-height: 32px;
 }
 
 img, button,
@@ -91,37 +96,6 @@ button,
   font-weight: 700;
 }
 
-/* Line height */ 
-.how-step-number {
-  line-height: 72px;
-}
-
-.why-choose-title {
-  line-height: 48px;
-
-}
-
-.how-step-label {
-  line-height: 36px;
-}
-
-.collection-label,
-.why-label,
-#how-it-works {
-  line-height: 32px;
-}
-
-.how-step-desc {
-  line-height: 26px;
-}
-
-.coffeepress-txt-container p,
-.collection-desc,
-.why-choose-desc,
-.why-desc {
-  line-height: 26px;
-}
-
 /*** Header component ***/
 .header-container {
   display: flex;
@@ -162,7 +136,6 @@ button,
   -webkit-background-clip: text;
   -webkit-text-fill-color: #FFFFFF;
   -webkit-text-stroke: 1px #979797;
-
 }
 
 .collection-flex-container {
