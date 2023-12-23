@@ -230,11 +230,14 @@ hr {
   top:70px;
   width: 65%;
   z-index:-1;
+  margin-top: 55px;
+  background-color: #FDD6BA;
 }
 
 .how-flex-container {
   display: flex;
   flex-wrap: no-wrap;
+  margin-top: 80px;    /* affects hr margin-top */
 }
 
 .how-step-container {

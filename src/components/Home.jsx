@@ -2,7 +2,7 @@ import Header from '../utils/Header'
 import Collection from './Collection'
 import WhyChoose from './WhyChoose'
 import coffeepress from '../assets/img/image-hero-coffeepress.jpg'
-import HowItWorks from './How'
+import How from './How'
 
 function Home() {
     return(
@@ -23,7 +23,7 @@ function Home() {
             </main>
             <Collection />
             <WhyChoose />
-            <HowItWorks />
+            <How />
         </div>
     )
 }
