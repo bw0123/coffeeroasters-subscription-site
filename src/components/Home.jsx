@@ -2,8 +2,10 @@ import Header from '../utils/Header'
 import Collection from './Collection'
 import WhyChoose from './WhyChoose'
 import Coffeepress from '../assets/img/image-hero-coffeepress.jpg'
-import How from './How'
 import MainBtnDefault from '../utils/MainBtnDefault'
+import How from './How'
+import Footer from '../utils/Footer'
+
 
 function Home() {
     return(
@@ -23,6 +25,7 @@ function Home() {
             <Collection />
             <WhyChoose />
             <How />
+            <Footer />
         </div>
     )
 }

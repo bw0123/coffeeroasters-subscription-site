@@ -1,9 +1,9 @@
-import Coffeeroasters from '../assets/icons/Logo'
+import LogoWhite from '../assets/icons/LogoWhite'
 
-function Header() {
+function Footer() {
     return(
-        <header class='header-footer-container'>
-            <Coffeeroasters />
+        <footer class='header-footer-container'>
+            <LogoWhite />
                 <nav class='nav-menu'>
                     <ul>
                         <li>Home</li>
@@ -11,8 +11,9 @@ function Header() {
                         <li>Create Your Plan</li>
                     </ul>
                 </nav>
-        </header>
+                
+        </footer>
     )
 }
 
-export default Header
+export default Footer

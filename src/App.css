@@ -85,6 +85,11 @@ button,
   color: #333D4B;
 }
 
+/* Dark grey color */
+footer, .why-choose-container  {
+  background-color: #2C343E;
+}
+
 /* Bold text */
 button, 
 .nav-menu,
@@ -96,15 +101,15 @@ button,
   font-weight: 700;
 }
 
-/*** Header component ***/
-.header-container {
+/*** Header & Footer component ***/
+.header-footer-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.nav-menu {
-  display: flex;
+footer {
+  padding: 30px 60px;
 }
 
 .nav-menu ul {
@@ -157,7 +162,6 @@ button,
 
 /* Why Choose component */
 .why-choose-container {
-  background: #2C343E;
   height: 577px;
   width: 1280px;
 }
