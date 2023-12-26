@@ -74,6 +74,7 @@ button,
 
 /* Grey color */ 
 .nav-menu-ul > li,
+a,
 #how-it-works {
   color: #83888F;
 }
@@ -101,8 +102,8 @@ button,
   font-weight: 700;
 }
 
-/*** Header & Footer component ***/
-.header-footer-container {
+/*** Navbar & Footer component ***/
+.nav-footer-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -113,10 +114,18 @@ button,
   list-style: none;
 }
 
-.nav-menu-ul > li{
+.nav-menu-ul > li {
   margin-left: 1.5rem;
   text-transform: uppercase;
   line-height: 15px;
+}
+
+a:link { 
+  text-decoration: none; 
+} 
+
+a:link:hover {
+  text-decoration: underline;
 }
 
 footer {
