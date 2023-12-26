@@ -23,7 +23,6 @@ function Home() {
             <Collection />
             <WhyChoose />
             <How />
-            <MainBtnDefault class='how-btn'>Create your plan</MainBtnDefault>
         </div>
     )
 }

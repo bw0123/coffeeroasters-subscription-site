@@ -1,4 +1,6 @@
 import StepsOval from '../assets/icons/Oval'
+import MainBtnDefault from '../utils/MainBtnDefault'
+
 
 function How() {
     return(
@@ -11,6 +13,7 @@ function How() {
                         <h1 class='how-step-number'>01</h1>
                         <h3 class='how-step-label'>Pick your<br></br>coffee</h3>
                         <p class='how-step-desc'>Select from our evolving range of artisan<br></br>coffees. Our beans are ethically sourced<br></br>and we pay fair prices for them. There are<br></br>new coffees in all profiles every month<br></br>for you to try out.</p>
+                        <MainBtnDefault>Create your plan</MainBtnDefault>
                     </div>
                     <div class='how-step-container'>
                         <StepsOval/>
