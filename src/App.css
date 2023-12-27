@@ -253,7 +253,7 @@ hr {
 .commitment-container {
   display: flex;
   justify-content: space-around;
-  align-items: start;
+  align-items: center;
 }
 
 .commitment-txt-container {
