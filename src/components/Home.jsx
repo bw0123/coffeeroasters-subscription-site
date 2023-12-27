@@ -12,9 +12,9 @@ import StepsOval from '../assets/icons/Oval'
 function Home() {
     return(
         <div>
-            <main class='coffeepress-container'>
+            <main class='main-bg-container'>
                 <img src={Coffeepress} alt='image-hero-coffeepress'></img>
-                <div class='coffeepress-txt-container'>
+                <div class='main-bg-txt-container'>
                     <h1>Great coffee<br></br>made simple.</h1>
                         <p>Start your mornings with the world's best coffees. Try our<br></br> 
                             expertly curated artisan coffees from our best roasters<br></br>

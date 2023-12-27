@@ -19,7 +19,9 @@ main, section {
 
 /* Main font */
 h1, h3, h3, h4, button,
-.why-choose-txt-container h2{
+.why-choose-txt-container > h2,
+.main-bg-txt-container > h2,
+#commitment-title {
   font-family: 'Fraunces', serif;
 }
 
@@ -33,7 +35,6 @@ h2 {
   font-weight: 500; /* medium */
   font-size: 2.5em;
   line-height: 48px;
-
 }
 
 h3 {
@@ -66,7 +67,7 @@ button {
 
 /* Light color */
 button, 
-.coffeepress-txt-container,
+.main-bg-txt-container,
 .why-choose-txt-container,
 .why-card-container {
   color: #FEFCF7;
@@ -80,9 +81,10 @@ a,
 }
 
 /* Dark blue color */
-.collection-label,
 .how-step-label,
-.how-step-desc {
+.how-step-desc,
+#commitment-title,
+.commitment-label {
   color: #333D4B;
 }
 
@@ -141,18 +143,17 @@ footer {
 }
 
 /*** Home ***/
-.coffeepress-txt-container {
+.main-bg-txt-container {
   position: absolute;
   top: 10%;
   left: 7%;
   text-align: start;
 }
 
-.coffeepress-txt-container > p {
+.main-bg-txt-container > p {
   margin: -15px 0 40px 0;
 }
 
-/*** Collection component ***/
 #our-collection {
   font-size: 9.375em; /* 150px */
   -webkit-background-clip: text;
@@ -177,7 +178,6 @@ footer {
   margin-left: 5%;
 }
 
-/* Why Choose component */
 .why-choose-container {
   height: 577px;
   width: 1280px;
@@ -211,7 +211,6 @@ footer {
   margin-top: 36%;
 }
 
-/*** HowItWorks component ***/
 .how-container {
   height: 565px;
   width: 1045px;
@@ -244,4 +243,21 @@ hr {
 
 .how-step-number {
   color: #FDD6BA;
+}
+
+/** About component **/
+.commitment-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin: 100px 0;
+
+}
+
+.commitment-txt-container {
+  text-align: start;
+}
+
+#commitment-title {
+  font-weight: 700;
 }
