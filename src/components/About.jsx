@@ -39,7 +39,7 @@ function About() {
             <section class='quality-container'>
                 <img src={Quality} alt='image-quality'></img>
                     <div class='quality-txt-container'>
-                        <h3 id='quality-title'>Uncompromising quality</h3>
+                        <h2 id='quality-title'>Uncompromising quality</h2>
                             <p class='quality-desc'>Although we work with growers who pay close attention to all stages of harvest and<br></br>
                                 processing, we employ, on our end, a rigorous quality control program to avoid<br></br>
                                 over-roasting or baking the coffee dry. Every bag of coffee is tagged with a roast<br></br>

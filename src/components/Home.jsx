@@ -95,13 +95,13 @@ function Home() {
                             <StepsOval/>
                             <h1 class='how-step-number'>02</h1>
                             <h3 class='how-hq-step-label'>Choose the<br></br>frequency</h3>
-                            <p class='how-hq-step-desc'>Select from our evolving range of artisan<br></br>coffees. Our beans are ethically sourced<br></br>and we pay fair prices for them. There are<br></br>new coffees in all profiles every month<br></br>for you to try out.</p>
+                            <p class='how-hq-step-desc'>Customize your order frequency,<br></br>quantity, even your roast style and grind<br></br>type. Pause, skip or cancel your<br></br>subscription with no commitment<br></br>through our online portal.</p>
                         </div>
                         <div class='how-hq-step-container'>
                             <StepsOval/>
                             <h1 class='how-step-number'>03</h1>
-                            <h3 class='how-hq-step-label'>Pick your<br></br>coffee.</h3>
-                            <p class='how-hq-step-desc'>Customize your order frequency,<br></br>quantity, even your roast style and grind<br></br>type. Pause, skip or cancel your<br></br>subscription with no commitment<br></br>through our online portal.</p>
+                            <h3 class='how-hq-step-label'>Receive and<br></br>enjoy!</h3>
+                            <p class='how-hq-step-desc'>We ship your package within 48 hours,<br></br>freshly roasted. Sit back and enjoy<br></br>award-winning world-class coffees<br></br>curated to provide a distinct tasting<br></br>experience.</p>
                         </div>
                     </div>
             </section>

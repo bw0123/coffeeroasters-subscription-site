@@ -21,7 +21,8 @@ main, section {
 h1, h3, h3, h4, button,
 .why-choose-txt-container > h2,
 .main-bg-txt-container > h2,
-#commitment-title {
+#commitment-title,
+#quality-title {
   font-family: 'Fraunces', serif;
 }
 
@@ -90,7 +91,7 @@ a,
 }
 
 /* Dark grey color */
-footer, .why-choose-container, .quality-container  {
+footer, .why-choose-container, .quality-container {
   background-color: #2C343E;
 }
 
@@ -102,6 +103,7 @@ button,
 .why-label,
 .how-hq-grey,
 .how-hq-step-label,
+#commitment-title
 #quality-title {
   font-weight: 700;
 }
@@ -250,7 +252,7 @@ hr {
 /** About component **/
 .commitment-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: start;
 }
 
@@ -258,22 +260,19 @@ hr {
   text-align: start;
 }
 
-#commitment-title {
-  font-weight: 700;
-}
-
 .quality-container {
   margin-top: 25%;
 }
 
 .quality-container > img  {
-  translate: 0 -50%;
+  translate: 75% -20%;
 }
 
 .quality-txt-container {
   position: absolute;
-  top: 45%;
-  left: 29%;
+  text-align: start;
+  top: 20%;
+  left: 7%;
   height: 200px;
   width: 540px;
 }
@@ -283,3 +282,4 @@ hr {
   line-height: 25px;
 }
 
+/** CreatePlan component **/
