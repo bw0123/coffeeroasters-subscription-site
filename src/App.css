@@ -50,7 +50,7 @@ h4 {
 }
 
 img, button,
-.why-choose-container, .why-card-container { 
+.why-choose-container, .why-card-container, .quality-container { 
   border-radius: 10px;
 }
 
@@ -69,7 +69,8 @@ button {
 button, 
 .main-bg-txt-container,
 .why-choose-txt-container,
-.why-card-container {
+.why-card-container,
+.quality-txt-container {
   color: #FEFCF7;
 }
 
@@ -89,7 +90,7 @@ a,
 }
 
 /* Dark grey color */
-footer, .why-choose-container  {
+footer, .why-choose-container, .quality-container  {
   background-color: #2C343E;
 }
 
@@ -100,7 +101,8 @@ button,
 #why-choose-title,
 .why-label,
 #how-it-works,
-.how-step-label {
+.how-step-label,
+#quality-title {
   font-weight: 700;
 }
 
@@ -178,7 +180,7 @@ footer {
   margin-left: 5%;
 }
 
-.why-choose-container {
+.why-choose-container, .quality-container {
   height: 577px;
   width: 1280px;
 }
@@ -251,7 +253,6 @@ hr {
   justify-content: space-between;
   align-items: start;
   margin: 100px 0;
-
 }
 
 .commitment-txt-container {
@@ -261,3 +262,25 @@ hr {
 #commitment-title {
   font-weight: 700;
 }
+
+.quality-container {
+  margin-top: 25%;
+}
+
+.quality-container > img  {
+  translate: 0 -50%;
+}
+
+.quality-txt-container {
+  position: absolute;
+  top: 45%;
+  left: 29%;
+  height: 200px;
+  width: 540px;
+}
+
+.quality-desc {
+  font-size: 0.9375em;
+  line-height: 25px;
+}
+

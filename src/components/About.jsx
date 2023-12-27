@@ -1,5 +1,6 @@
 import Whitecup from '../assets/img/image-hero-whitecup.jpg'
 import Commitment from '../assets/img/image-commitment.jpg'
+import Quality from '../assets/img/image-quality.jpg'
 
 function About() {
     return(
@@ -31,6 +32,21 @@ function About() {
                         their native growing region.
                     </p>
                 </div>
+            </section>
+            <section class='quality-container'>
+                <img src={Quality} alt='image-quality'></img>
+                    <div class='quality-txt-container'>
+                        <h3 id='quality-title'>Uncompromising quality</h3>
+                            <p class='quality-desc'>Although we work with growers who pay close attention to all stages of harvest and<br></br>
+                                processing, we employ, on our end, a rigorous quality control program to avoid<br></br>
+                                over-roasting or baking the coffee dry. Every bag of coffee is tagged with a roast<br></br>
+                                date and batch number. Our goal is to roast consistent, user-friendly coffee, so that<br></br>
+                                brewing is easy and enjoyable.
+                            </p>
+                    </div>
+            </section>
+            <section class='headquarters-container'>
+                
             </section>
         </div>
     )
