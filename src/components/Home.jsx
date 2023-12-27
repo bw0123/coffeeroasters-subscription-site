@@ -20,32 +20,32 @@ function Home() {
                             expertly curated artisan coffees from our best roasters<br></br>
                             delivered directly to your door, at your schedule.
                         </p>
-                        <MainBtnDefault>Create your plan</MainBtnDefault>
+                    <MainBtnDefault>Create your plan</MainBtnDefault>
                 </div>
             </main>
             <section>
-            <h1 id='our-collection'>our collection</h1>
-                <div class='collection-flex-container'>
-                    <div class='collection-item-container'>
-                        <img src={Granespresso} alt='image-gran-espresso'></img>
-                        <h4 class='collection-label'>Gran Espresso</h4>
-                        <p class='collection-desc'>Light and flavorful blend with cocoa<br></br>and black pepper for an intense<br></br>experience.</p>
-                    </div>
-                    <div class='collection-item-container'>
-                        <img src={Planalto} alt='image-planalto'></img>
-                        <h4 class='collection-label'>Planalto</h4>
-                        <p class='collection-desc'>Brazilian dark roast with rich and<br></br>velvety body, and hints of fruits and<br></br>nuts.</p>
-                    </div>
-                    <div class='collection-item-container'>
-                        <img src={Piccollo} alt='image-piccollo'></img>
-                        <h4 class='collection-label'>Piccollo</h4>
-                        <p class='collection-desc'>Mild and smooth blend featuring<br></br>notes of toasted almond and dried<br></br>cherry.</p>
-                    </div>
-                    <div class='collection-item-container'>
-                        <img src={Danche} alt='image-danche'></img>
-                        <h4 class='collection-label'>Danche</h4>
-                        <p class='collection-desc'>Ethiopian hand-harvested blend<br></br>densely packed with vibrant fruit<br></br>notes.</p>
-                    </div>
+                <h1 id='our-collection'>our collection</h1>
+                    <div class='collection-flex-container'>
+                        <div class='collection-item-container'>
+                            <img src={Granespresso} alt='image-gran-espresso'></img>
+                            <h4 class='collection-label'>Gran Espresso</h4>
+                            <p class='collection-desc'>Light and flavorful blend with cocoa<br></br>and black pepper for an intense<br></br>experience.</p>
+                        </div>
+                        <div class='collection-item-container'>
+                            <img src={Planalto} alt='image-planalto'></img>
+                            <h4 class='collection-label'>Planalto</h4>
+                            <p class='collection-desc'>Brazilian dark roast with rich and<br></br>velvety body, and hints of fruits and<br></br>nuts.</p>
+                        </div>
+                        <div class='collection-item-container'>
+                            <img src={Piccollo} alt='image-piccollo'></img>
+                            <h4 class='collection-label'>Piccollo</h4>
+                            <p class='collection-desc'>Mild and smooth blend featuring<br></br>notes of toasted almond and dried<br></br>cherry.</p>
+                        </div>
+                        <div class='collection-item-container'>
+                            <img src={Danche} alt='image-danche'></img>
+                            <h4 class='collection-label'>Danche</h4>
+                            <p class='collection-desc'>Ethiopian hand-harvested blend<br></br>densely packed with vibrant fruit<br></br>notes.</p>
+                        </div>
                 </div>
             </section>
             <section class='why-choose-container'>
@@ -80,30 +80,30 @@ function Home() {
                     </div>
                 </div>
             </section>
-            <section class='how-container'>
-            <h3 id='how-it-works'>How it works</h3>
-                <hr></hr>
-                <div class='how-flex-container'>
-                    <div class='how-step-container'>
-                        <StepsOval/>
-                        <h1 class='how-step-number'>01</h1>
-                        <h3 class='how-step-label'>Pick your<br></br>coffee</h3>
-                        <p class='how-step-desc'>Select from our evolving range of artisan<br></br>coffees. Our beans are ethically sourced<br></br>and we pay fair prices for them. There are<br></br>new coffees in all profiles every month<br></br>for you to try out.</p>
-                        <MainBtnDefault>Create your plan</MainBtnDefault>
+            <section class='how-hq-container'>
+                <h3 class='how-hq-grey'>How it works</h3>
+                    <hr></hr>
+                    <div class='how-hq-flex-container'>
+                        <div class='how-hq-step-container'>
+                            <StepsOval/>
+                            <h1 class='how-step-number'>01</h1>
+                            <h3 class='how-hq-step-label'>Pick your<br></br>coffee</h3>
+                            <p class='how-hq-step-desc'>Select from our evolving range of artisan<br></br>coffees. Our beans are ethically sourced<br></br>and we pay fair prices for them. There are<br></br>new coffees in all profiles every month<br></br>for you to try out.</p>
+                            <MainBtnDefault>Create your plan</MainBtnDefault>
+                        </div>
+                        <div class='how-hq-step-container'>
+                            <StepsOval/>
+                            <h1 class='how-step-number'>02</h1>
+                            <h3 class='how-hq-step-label'>Choose the<br></br>frequency</h3>
+                            <p class='how-hq-step-desc'>Select from our evolving range of artisan<br></br>coffees. Our beans are ethically sourced<br></br>and we pay fair prices for them. There are<br></br>new coffees in all profiles every month<br></br>for you to try out.</p>
+                        </div>
+                        <div class='how-hq-step-container'>
+                            <StepsOval/>
+                            <h1 class='how-step-number'>03</h1>
+                            <h3 class='how-hq-step-label'>Pick your<br></br>coffee.</h3>
+                            <p class='how-hq-step-desc'>Customize your order frequency,<br></br>quantity, even your roast style and grind<br></br>type. Pause, skip or cancel your<br></br>subscription with no commitment<br></br>through our online portal.</p>
+                        </div>
                     </div>
-                    <div class='how-step-container'>
-                        <StepsOval/>
-                        <h1 class='how-step-number'>02</h1>
-                        <h3 class='how-step-label'>Choose the<br></br>frequency</h3>
-                        <p class='how-step-desc'>Select from our evolving range of artisan<br></br>coffees. Our beans are ethically sourced<br></br>and we pay fair prices for them. There are<br></br>new coffees in all profiles every month<br></br>for you to try out.</p>
-                    </div>
-                    <div class='how-step-container'>
-                        <StepsOval/>
-                        <h1 class='how-step-number'>03</h1>
-                        <h3 class='how-step-label'>Pick your<br></br>coffee.</h3>
-                        <p class='how-step-desc'>Customize your order frequency,<br></br>quantity, even your roast style and grind<br></br>type. Pause, skip or cancel your<br></br>subscription with no commitment<br></br>through our online portal.</p>
-                    </div>
-                </div>
             </section>
         </div>
     )

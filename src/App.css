@@ -77,13 +77,13 @@ button,
 /* Grey color */ 
 .nav-menu-ul > li,
 a,
-#how-it-works {
+.how-hq-grey {
   color: #83888F;
 }
 
 /* Dark blue color */
-.how-step-label,
-.how-step-desc,
+.how-hq-step-label,
+.how-hq-step-desc,
 #commitment-title,
 .commitment-label {
   color: #333D4B;
@@ -100,8 +100,8 @@ button,
 .collection-label,
 #why-choose-title,
 .why-label,
-#how-it-works,
-.how-step-label,
+.how-hq-grey,
+.how-hq-step-label,
 #quality-title {
   font-weight: 700;
 }
@@ -213,11 +213,11 @@ footer {
   margin-top: 36%;
 }
 
-.how-container {
+.how-hq-container {
   height: 565px;
   width: 1045px;
   text-align: start;
-  margin: 25% 5%;
+  margin: 20% 5%;
 }
 
 hr {
@@ -231,13 +231,13 @@ hr {
   border: none;
 }
 
-.how-flex-container {
+.how-hq-flex-container {
   display: flex;
   flex-wrap: wrap;
   margin-top: 80px;    /* affects hr margin-top */
 }
 
-.how-step-container {
+.how-hq-step-container {
   height: 355px;
   width: 285px;
   margin-right: 5%;
@@ -252,7 +252,6 @@ hr {
   display: flex;
   justify-content: space-between;
   align-items: start;
-  margin: 100px 0;
 }
 
 .commitment-txt-container {

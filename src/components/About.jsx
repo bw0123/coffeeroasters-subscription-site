@@ -1,6 +1,9 @@
 import Whitecup from '../assets/img/image-hero-whitecup.jpg'
 import Commitment from '../assets/img/image-commitment.jpg'
 import Quality from '../assets/img/image-quality.jpg'
+import IconUk from '../assets/icons/IconUk'
+import IconCa from '../assets/icons/IconCa'
+import IconAu from '../assets/icons/IconAu'
 
 function About() {
     return(
@@ -45,8 +48,25 @@ function About() {
                             </p>
                     </div>
             </section>
-            <section class='headquarters-container'>
-                
+            <section class='how-hq-container'>
+                <h3 class='how-hq-grey'>Our headquarters</h3>
+                <div class='how-hq-flex-container'>
+                        <div class='how-hq-step-container'>
+                            <IconUk />
+                            <h4 class='how-hq-step-label'>United Kingdom</h4>
+                            <p class='how-hq-step-desc'>68  Asfordby Rd<br></br>Alcaston<br></br>SY6 1YA<br></br>+44 1241 918425</p>
+                        </div>
+                        <div class='how-hq-step-container'>
+                            <IconCa />
+                            <h4 class='how-hq-step-label'>Canada</h4>
+                            <p class='how-step-desc'>1528  Eglinton Avenue<br></br>Toronto<br></br>Ontario M4P 1A6<br></br>+1 416 485 2997</p>
+                        </div>
+                        <div class='how-hq-step-container'>
+                            <IconAu />
+                            <h4 class='how-hq-step-label'>Australia</h4>
+                            <p class='how-hq-step-desc'>36 Swanston Street<br></br>Kewell<br></br>Victoria<br></br>+61 4 9928 3629</p>
+                        </div>
+                </div>
             </section>
         </div>
     )
