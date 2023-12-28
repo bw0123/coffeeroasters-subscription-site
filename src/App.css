@@ -51,7 +51,7 @@ h4 {
 }
 
 img, button,
-.why-choose-container, .why-card-container, .quality-container { 
+.why-choose-container, .why-card-container, .quality-container,  .how-container-dark { 
   border-radius: 10px;
 }
 
@@ -60,6 +60,7 @@ button {
   font-size: 1.1em;
   padding: 15px 30px;
 }
+
 
 /* Custom Buttons */
 .main-btn-default {
@@ -71,7 +72,9 @@ button,
 .main-bg-txt-container,
 .why-choose-txt-container,
 .why-card-container,
-.quality-txt-container {
+.quality-txt-container,
+.how-step-label-dark,
+.how-step-desc-dark {
   color: #FEFCF7;
 }
 
@@ -91,7 +94,7 @@ a,
 }
 
 /* Dark grey color */
-footer, .why-choose-container, .quality-container {
+footer, .why-choose-container, .quality-container, .how-container-dark {
   background-color: #2C343E;
 }
 
@@ -182,7 +185,7 @@ footer {
   margin-left: 5%;
 }
 
-.why-choose-container, .quality-container {
+.why-choose-container, .quality-container, .how-container-dark {
   height: 577px;
   width: 1280px;
 }
@@ -283,3 +286,10 @@ hr {
 }
 
 /** CreatePlan component **/
+.how-container-dark {
+  text-align: start;
+}
+
+#how-flex-container-dark {
+  margin-left: 7%;
+}
