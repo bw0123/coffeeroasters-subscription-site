@@ -81,7 +81,7 @@ function Home() {
                 </div>
             </section>
             <section class='how-hq-container'>
-                <h3 class='how-hq-grey'>How it works</h3>
+                <h3 class='how-hq-txt-grey'>How it works</h3>
                     <hr></hr>
                     <div class='how-hq-flex-container'>
                         <div class='how-hq-step-container'>

@@ -49,7 +49,7 @@ function About() {
                     </div>
             </section>
             <section class='how-hq-container'>
-                <h3 class='how-hq-grey'>Our headquarters</h3>
+                <h3 class='how-hq-txt-grey'>Our headquarters</h3>
                 <div class='how-hq-flex-container'>
                         <div class='how-hq-step-container'>
                             <IconUk />
