@@ -291,7 +291,6 @@ hr {
 /** CreatePlan component **/
 .how-container-dark {
   text-align: start;
-  z-index: 1;
 }
 
 .how-plan-content-margin {
@@ -304,6 +303,8 @@ hr {
 }
 
 #hr-dark {
-  width: 60%;
+  z-index: 1;
+  margin-left: 1%;
+  width: 58.5%;
   transform: translateY(-115px);
 }
