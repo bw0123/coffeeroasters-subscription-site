@@ -16,7 +16,7 @@ function CreatePlan() {
             </main>
             <section class='how-container-dark'>  
                 <div class='how-plan-content-margin'>
-                    <hr id='hr-dark'></hr>
+                    <hr class='hr-shared' id='hr-dark'></hr>
                     <div class='how-flex-container-dark'>
                         <div class='how-hq-step-container'>
                             <StepsOvalDark />

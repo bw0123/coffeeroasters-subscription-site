@@ -82,7 +82,7 @@ function Home() {
             </section>
             <section class='how-hq-container'>
                 <h3 class='how-hq-txt-grey'>How it works</h3>
-                    <hr></hr>
+                    <hr class='hr-shared' id='how-hr'></hr>
                     <div class='how-hq-flex-container'>
                         <div class='how-hq-step-container'>
                             <StepsOval/>

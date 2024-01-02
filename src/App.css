@@ -225,15 +225,18 @@ footer {
   margin: 20% 5%;
 }
 
-hr {
+.hr-shared {
   position: absolute;
   top: 75px;
   height: 2px;
-  width: 65%;
-  z-index:-1;
   margin-top: 55px;
   background-color: #FDD6BA;
-  border: none;
+  border: none; 
+}
+
+#how-hr {
+  width: 65%;
+  z-index:-1;
 }
 
 .how-hq-flex-container, .how-flex-container-dark {
@@ -301,15 +304,15 @@ hr {
   transform: translateY(50px);
 }
 
-.how-flex-container-dark {
-  margin-top: 75px;
-}
-
 #hr-dark {
   z-index: 1;
   margin-left: 1%;
   width: 58.3%;
   transform: translateY(-115px);
+}
+
+.how-flex-container-dark {
+  margin-top: 75px;
 }
 
 .aside-step-col {
