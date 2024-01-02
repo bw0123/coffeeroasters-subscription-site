@@ -109,7 +109,7 @@ button,
 .how-hq-step-label,
 #commitment-title
 #quality-title,
-.aside-step-number,
+.aside-step-id,
 .aside-step-label {
   font-weight: 700;
 }
@@ -327,7 +327,7 @@ footer {
   margin: -10px 0 -15px 0;
 }
 
-.aside-step-number {
+.aside-step-id {
   margin-right: 25px;
 }
 
