@@ -81,7 +81,8 @@ button,
 /* Grey color */ 
 .nav-menu-ul > li,
 a,
-.how-hq-txt-grey {
+.how-hq-txt-grey,
+.aside-step-container {
   color: #83888F;
 }
 
@@ -107,7 +108,9 @@ button,
 .how-hq-txt-grey,
 .how-hq-step-label,
 #commitment-title
-#quality-title {
+#quality-title,
+.aside-step-number,
+.aside-step-label {
   font-weight: 700;
 }
 
@@ -207,6 +210,9 @@ footer {
   height: 380px;
   width: 350px;
   background: #0E8784;
+}
+
+.why-card-container, .quality-container {
   margin-top: 25%;
 }
 
@@ -269,10 +275,6 @@ footer {
   text-align: start;
 }
 
-.quality-container {
-  margin-top: 25%;
-}
-
 .quality-container > img  {
   translate: 75% -20%;
 }
@@ -315,14 +317,37 @@ footer {
   margin-top: 75px;
 }
 
+/** Aside tag **/
 .aside-step-col {
   width: 255px;
 }
 
+/** Default settings **/
+.aside-step-number, .aside-step-label {
+  opacity: 0.75;
+}
+
+/** Hover settings **/
+.aside-step-container:hover > *{
+  opacity: 1;
+}
+
 .aside-step-container {
   display: flex;
+  margin: -10px 0 -15px 0;
+}
+
+#aside-01 {
+  color: #0E8784;
 }
 
 .aside-step-number {
   margin-right: 25px;
+}
+
+.aside-hr {
+  position: absolute;
+  width: inherit;
+  height: 1px;
+  background-color: #979797;
 }

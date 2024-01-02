@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import Blackcup from '../assets/img/image-hero-blackcup.jpg'
 import StepsOvalDark from '../assets/icons/OvalDarkFill'
 
@@ -41,21 +42,25 @@ function CreatePlan() {
             </section>
             <aside class='aside-step-col'>
                     <div class='aside-step-container'>
-                        <h4 class='aside-step-number'>01</h4>
+                        <h4 class='aside-step-number' id='aside-01'>01</h4>
                         <h4 class='aside-step-label'>Preferences</h4>
                     </div>
+                    <hr class='aside-hr'></hr>
                     <div class='aside-step-container'>
                         <h4 class='aside-step-number'>02</h4>
                         <h4 class='aside-step-label'>Bean Type</h4>
                     </div>
+                    <hr class='aside-hr'></hr>
                     <div class='aside-step-container'>
                         <h4 class='aside-step-number'>03</h4>
                         <h4 class='aside-step-label'>Quantity</h4>
                     </div>
+                    <hr class='aside-hr'></hr>
                     <div class='aside-step-container'>
                         <h4 class='aside-step-number'>04</h4>
                         <h4 class='aside-step-label'>Grind Option</h4>
                     </div>
+                    <hr class='aside-hr'></hr>
                     <div class='aside-step-container'>
                         <h4 class='aside-step-number'>05</h4>
                         <h4 class='aside-step-label'>Deliveries</h4>
