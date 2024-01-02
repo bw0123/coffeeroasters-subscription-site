@@ -14,7 +14,7 @@ function CreatePlan() {
                         </p>
                 </div>
             </main>
-            <section class='how-container-dark'>
+            <section class='how-container-dark'>  
                 <div class='how-plan-content-margin'>
                     <hr id='hr-dark'></hr>
                     <div class='how-flex-container-dark'>
@@ -39,8 +39,56 @@ function CreatePlan() {
                     </div>
                 </div>
             </section>
+            <aside class='aside-step-col'>
+                    <div class='aside-step-container'>
+                        <h4 class='aside-step-number'>01</h4>
+                        <h4 class='aside-step-label'>Preferences</h4>
+                    </div>
+                    <div class='aside-step-container'>
+                        <h4 class='aside-step-number'>02</h4>
+                        <h4 class='aside-step-label'>Bean Type</h4>
+                    </div>
+                    <div class='aside-step-container'>
+                        <h4 class='aside-step-number'>03</h4>
+                        <h4 class='aside-step-label'>Quantity</h4>
+                    </div>
+                    <div class='aside-step-container'>
+                        <h4 class='aside-step-number'>04</h4>
+                        <h4 class='aside-step-label'>Grind Option</h4>
+                    </div>
+                    <div class='aside-step-container'>
+                        <h4 class='aside-step-number'>05</h4>
+                        <h4 class='aside-step-label'>Deliveries</h4>
+                    </div>
+            </aside>
+            {/*
+            <section class='plan-col'>
+                <div class='select-container'>
+                    <h2 class='select-question'>How do you drink your coffee?</h2>
+                    <div class='select-flex-container'>
+                        <div class='select-card-container'>
+                            <div class='select-card-info'>
+                                <h4 class='select-label'>Capsule</h4>
+                                <p class='select-desc'>Compatible with<br></br>Nespresso systems and<br></br>similar brewers</p>
+                            </div>
+                        </div>
+                        <div class='select-card-container'>
+                            <div class='select-card-info'>
+                                <h4 class='select-label'>Filter</h4>
+                                <p class='select-desc'>Pour over or drip<br></br>methods like Aeropress,<br></br>Chemex, and V60</p>
+                            </div>
+                        </div>
+                        <div class='select-card-container'>
+                            <div class='select-card-info'>
+                                <h4 class='select-label'>Espresso</h4>
+                                <p class='select-desc'>Dense and finely ground<br></br>beans for an intense,<br></br>flavorful experience</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        */}
         </div>
-        
     )
 }
 

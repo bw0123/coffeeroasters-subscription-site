@@ -33,19 +33,19 @@ h1 {
 }
 
 h2 {
-  font-weight: 500; /* medium */
+  font-weight: 500; /* medium, 40px */
   font-size: 2.5em;
   line-height: 48px;
 }
 
 h3 {
-  font-weight: 400; /* regular */
+  font-weight: 400; /* regular, 32px*/
   font-size: 2em;
   line-height: 36px;
 }
 
 h4 {
-  font-weight: 300; /* light */
+  font-weight: 300; /* light, 24px */
   font-size: 1.5em;
   line-height: 32px;
 }
@@ -289,12 +289,15 @@ hr {
 }
 
 /** CreatePlan component **/
+.how-plan-content-margin, .aside-step-col {
+  margin-left: 7%;
+}
+
 .how-container-dark {
   text-align: start;
 }
 
 .how-plan-content-margin {
-  margin-left: 7%;
   transform: translateY(50px);
 }
 
@@ -307,4 +310,16 @@ hr {
   margin-left: 1%;
   width: 58.3%;
   transform: translateY(-115px);
+}
+
+.aside-step-col {
+  width: 255px;
+}
+
+.aside-step-container {
+  display: flex;
+}
+
+.aside-step-number {
+  margin-right: 25px;
 }
