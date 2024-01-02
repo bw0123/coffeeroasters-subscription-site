@@ -3,6 +3,15 @@ import Blackcup from '../assets/img/image-hero-blackcup.jpg'
 import StepsOvalDark from '../assets/icons/OvalDarkFill'
 
 function CreatePlan() {
+    const [selected, setSelected] = useState(true)
+    const [labelColor, setLabelColor] = useState({ color: '#333D4B', opacity: 0.75 })
+    const [isGreen, setIsGreen] = useState({ color: '#0E8784', opacity: 0.75 })
+
+    const changeStyle = () => {
+        setIsGreen({ color: '#0E8784', opacity: 1 })
+        setLabelColor({ color: '#000000', opacity: 1 })
+    }
+
     return(
         <div>
             <main class='main-bg-container'>
@@ -41,14 +50,14 @@ function CreatePlan() {
                 </div>
             </section>
             <aside class='aside-step-col'>
-                    <div class='aside-step-container'>
-                        <h4 class='aside-step-number' id='aside-01'>01</h4>
-                        <h4 class='aside-step-label'>Preferences</h4>
+                    <div class='aside-step-container' onClick={changeStyle}>
+                        <h4 class='aside-step-number' style={isGreen}>01</h4>
+                        <h4 class='aside-step-label' style={labelColor}>Preferences</h4>
                     </div>
                     <hr class='aside-hr'></hr>
-                    <div class='aside-step-container'>
-                        <h4 class='aside-step-number'>02</h4>
-                        <h4 class='aside-step-label'>Bean Type</h4>
+                    <div class='aside-step-container' onClick={changeStyle}>
+                        <h4 class='aside-step-number' style={isGreen}>02</h4>
+                        <h4 class='aside-step-label' style={labelColor}>Bean Type</h4>
                     </div>
                     <hr class='aside-hr'></hr>
                     <div class='aside-step-container'>

@@ -322,23 +322,9 @@ footer {
   width: 255px;
 }
 
-/** Default settings **/
-.aside-step-number, .aside-step-label {
-  opacity: 0.75;
-}
-
-/** Hover settings **/
-.aside-step-container:hover > *{
-  opacity: 1;
-}
-
 .aside-step-container {
   display: flex;
   margin: -10px 0 -15px 0;
-}
-
-#aside-01 {
-  color: #0E8784;
 }
 
 .aside-step-number {
