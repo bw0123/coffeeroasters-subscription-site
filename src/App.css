@@ -22,7 +22,8 @@ h1, h3, h3, h4, button,
 .why-choose-txt-container > h2,
 .main-bg-txt-container > h2,
 #commitment-title,
-#quality-title {
+#quality-title,
+.select-question {
   font-family: 'Fraunces', serif;
 }
 
@@ -82,7 +83,9 @@ button,
 .nav-menu-ul > li,
 a,
 .how-hq-txt-grey,
-.aside-step-container {
+.aside-step-container,
+.select-question
+{
   color: #83888F;
 }
 
@@ -90,7 +93,8 @@ a,
 .how-hq-step-label,
 .how-hq-step-desc,
 #commitment-title,
-.commitment-label {
+.commitment-label,
+ {
   color: #333D4B;
 }
 
@@ -350,4 +354,9 @@ footer {
 
 .select-flex-container {
   display: flex;
+}
+
+.select-label, .select-desc {
+  text-align: start;
+  color: #333D4B;
 }
