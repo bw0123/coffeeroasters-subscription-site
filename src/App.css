@@ -52,7 +52,7 @@ h4 {
 }
 
 img, button,
-.why-choose-container, .why-card-container, .quality-container,  .how-container-dark { 
+.why-choose-container, .why-card-container, .quality-container,  .how-container-dark, .select-card-container { 
   border-radius: 10px;
 }
 
@@ -114,7 +114,8 @@ button,
 #commitment-title
 #quality-title,
 .aside-step-id,
-.aside-step-label {
+.aside-step-label,
+.select-label {
   font-weight: 700;
 }
 
@@ -324,6 +325,7 @@ footer {
 /** Aside + Plan div **/
 .aside-plan-flex-container {
   display: flex;
+  margin-top: 10%;
 }
 
 /** Aside tag **/
@@ -333,7 +335,7 @@ footer {
 
 .aside-step-container {
   display: flex;
-  margin: -10px 0 -24px 0;
+  padding: 24px 0;
 }
 
 .aside-step-id {
@@ -349,14 +351,27 @@ footer {
 
 /** Plan select section **/
 .plan-col {
-  margin: -10px 100px;
+  margin: -24px 100px;
+  height: 355px;
+  width: 730px;
+  text-align: start;
 }
 
 .select-flex-container {
   display: flex;
 }
 
+.select-card-container {
+  background: #F4F1EB;
+  margin-right: 20px;
+}
+
+.select-card-info {
+  padding: 5px 24px 24px 5px;
+}
+
 .select-label, .select-desc {
-  text-align: start;
   color: #333D4B;
 }
+
+
