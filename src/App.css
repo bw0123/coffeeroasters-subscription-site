@@ -317,6 +317,11 @@ footer {
   margin-top: 75px;
 }
 
+/** Aside + Plan div **/
+.aside-plan-flex-container {
+  display: flex;
+}
+
 /** Aside tag **/
 .aside-step-col {
   width: 255px;
@@ -324,7 +329,7 @@ footer {
 
 .aside-step-container {
   display: flex;
-  margin: -10px 0 -15px 0;
+  margin: -10px 0 -24px 0;
 }
 
 .aside-step-id {
@@ -336,4 +341,13 @@ footer {
   width: inherit;
   height: 1px;
   background-color: #979797;
+}
+
+/** Plan select section **/
+.plan-col {
+  margin: -10px 100px;
+}
+
+.select-flex-container {
+  display: flex;
 }
