@@ -42,34 +42,33 @@ function CreatePlan() {
             </section>
             <div class='aside-plan-flex-container'>
                 <aside class='aside-step-col'>
-                        <div class='aside-step-container'>
-                            <h4 class='aside-step-id' >01</h4>
-                            <h4 class='aside-step-label' >Preferences</h4>
-                        </div>
-                        <hr class='aside-hr'></hr>
-                        <div class='aside-step-container'>
-                            <h4 class='aside-step-id'>02</h4>
-                            <h4 class='aside-step-label'>Bean Type</h4>
-                        </div>
-                        <hr class='aside-hr'></hr>
-                        <div class='aside-step-container'>
-                            <h4 class='aside-step-id'>03</h4>
-                            <h4 class='aside-step-label'>Quantity</h4>
-                        </div>
-                        <hr class='aside-hr'></hr>
-                        <div class='aside-step-container'>
-                            <h4 class='aside-step-id'>04</h4>
-                            <h4 class='aside-step-label'>Grind Option</h4>
-                        </div>
-                        <hr class='aside-hr'></hr>
-                        <div class='aside-step-container'>
-                            <h4 class='aside-step-id'>05</h4>
-                            <h4 class='aside-step-label'>Deliveries</h4>
-                        </div>
+                    <div class='aside-step-container'>
+                        <h4 class='aside-step-id' >01</h4>
+                        <h4 class='aside-step-label' >Preferences</h4>
+                    </div>
+                    <hr class='aside-hr'></hr>
+                    <div class='aside-step-container'>
+                        <h4 class='aside-step-id'>02</h4>
+                        <h4 class='aside-step-label'>Bean Type</h4>
+                    </div>
+                    <hr class='aside-hr'></hr>
+                    <div class='aside-step-container'>
+                        <h4 class='aside-step-id'>03</h4>
+                        <h4 class='aside-step-label'>Quantity</h4>
+                    </div>
+                    <hr class='aside-hr'></hr>
+                    <div class='aside-step-container'>
+                        <h4 class='aside-step-id'>04</h4>
+                        <h4 class='aside-step-label'>Grind Option</h4>
+                    </div>
+                    <hr class='aside-hr'></hr>
+                    <div class='aside-step-container'>
+                        <h4 class='aside-step-id'>05</h4>
+                        <h4 class='aside-step-label'>Deliveries</h4>
+                    </div>
                 </aside>
-                <section class='plan-col'>
-                    <div class='select-container'>
-                        <h2 class='select-question'>How do you drink your coffee?</h2>
+                <section class='select-col'>
+                    <h2 class='select-question'>How do you drink your coffee?</h2>
                         <div class='select-flex-container'>
                             <div class='select-card-container'>
                                 <div class='select-card-info'>
@@ -90,7 +89,6 @@ function CreatePlan() {
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </section>
             </div>
         </div>

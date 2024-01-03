@@ -299,7 +299,7 @@ footer {
 }
 
 /** CreatePlan component **/
-.how-plan-content-margin, .aside-step-col {
+.how-plan-content-margin, .aside-step-col, .select-col {
   margin-left: 7%;
 }
 
@@ -325,21 +325,21 @@ footer {
 /** Aside + Plan div **/
 .aside-plan-flex-container {
   display: flex;
-  margin-top: 10%;
+  margin: 10% 0;
 }
 
 /** Aside tag **/
 .aside-step-col {
+  height: 355px;
   width: 255px;
 }
 
 .aside-step-container {
   display: flex;
-  padding: 24px 0;
 }
 
 .aside-step-id {
-  margin-right: 25px;
+  margin-right: 24px;
 }
 
 .aside-hr {
@@ -349,12 +349,15 @@ footer {
   background-color: #979797;
 }
 
-/** Plan select section **/
-.plan-col {
-  margin: -24px 100px;
+/** Select section **/
+.select-col {
+  text-align: start;
   height: 355px;
   width: 730px;
-  text-align: start;
+}
+
+.select-question {
+  transform: translateY(-2rem);
 }
 
 .select-flex-container {
@@ -364,10 +367,12 @@ footer {
 .select-card-container {
   background: #F4F1EB;
   margin-right: 20px;
+  height: 250px;
+  width: 230px;
 }
 
 .select-card-info {
-  padding: 5px 24px 24px 5px;
+  padding: 24px;
 }
 
 .select-label, .select-desc {
