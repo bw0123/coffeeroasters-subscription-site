@@ -68,7 +68,10 @@ function CreatePlan() {
                     </div>
                 </aside>
                 <section class='select-col'>
-                    <h2 class='select-question'>How do you drink your coffee?</h2>
+                    <div class='select-intro-flex-container'>
+                        <h2 class='select-question'>How do you drink your coffee?</h2>
+                        <p><i class='arrow up'></i></p>
+                    </div>
                         <div class='select-flex-container'>
                             <div class='select-card-container'>
                                 <div class='select-card-info'>
