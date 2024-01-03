@@ -1,9 +1,33 @@
 import { useState } from 'react'
 
-export default function AsidePlan() {
-    return(
-        <div class='aside-plan-flex-container'>
-            <aside class='aside-step-col'>
+function AsidePlan() {
+    let asideItems = [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+    ]
+    const [activeIndex, setActiveIndex] = useState(null)
+
+    const changeStep = (e, index) => {
+        console.log({ e })
+        setActiveIndex(index)
+    }
+
+    return asideItems.map((value, index) => {
+        return(
+            <>
+                <div class='aside-step-container' onClick={(e) => changeStep(e, index)}>  
+                    <h4 class='aside-step-id' style={{ color: activeIndex === index ? '#0E8784' : '#83888F' }}>{value}</h4>
+                    <h4 class='aside-step-label'></h4>
+                </div>
+                <hr class='aside-hr'></hr>
+            </>
+        )
+    })
+
+        {/* 
                 <div class='aside-step-container'>
                     <h4 class='aside-step-id'>01</h4>
                     <h4 class='aside-step-label'>Preferences</h4>
@@ -29,34 +53,7 @@ export default function AsidePlan() {
                     <h4 class='aside-step-label'>Deliveries</h4>
                 </div>
             </aside>
-            
-            <section class='select-col'>
-                <div class='select-intro-flex-container'>
-                    <h2 class='select-question'>How do you drink your coffee?</h2>
-                    <p><i class='arrow up'></i></p>
-                </div>
-                <div class='select-flex-container'>
-                    <div class='select-card-container'>
-                        <div class='select-card-info'>
-                            <h4 class='select-label'>Capsule</h4>
-                            <p class='select-desc'>Compatible with<br></br>Nespresso systems and<br></br>similar brewers</p>
-                        </div>
-                    </div>
-                    <div class='select-card-container'>
-                        <div class='select-card-info'>
-                            <h4 class='select-label'>Filter</h4>
-                            <p class='select-desc'>Pour over or drip<br></br>methods like Aeropress,<br></br>Chemex, and V60</p>
-                        </div>
-                    </div>
-                    <div class='select-card-container'>
-                        <div class='select-card-info'>
-                            <h4 class='select-label'>Espresso</h4>
-                            <p class='select-desc'>Dense and finely ground<br></br>beans for an intense,<br></br>flavorful experience</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-    )
+    */}
 }
 
+export default AsidePlan

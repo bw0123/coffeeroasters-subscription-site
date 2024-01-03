@@ -40,7 +40,11 @@ function CreatePlan() {
                     </div>
                 </div>
             </section>
-            <AsidePlan />
+            <div class='aside-plan-flex-container'>
+                <aside class='aside-step-col'>
+                    <AsidePlan />
+                </aside>
+            </div>
         </div>
     )
 }
