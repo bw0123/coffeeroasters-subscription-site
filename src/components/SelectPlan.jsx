@@ -2,7 +2,7 @@ import { useState } from 'react'
 import SelectCard from '../utils/SelectCard'
 
 function SelectPlan() {
-    const [show, setShow] = useState(true)
+    const [show, setShow] = useState(false)
 
     const toggle = () => {
         setShow(!show)
@@ -16,7 +16,6 @@ function SelectPlan() {
                     </i></p>
                 </div>
                 {show && <SelectCard />}   
-
             </section>
     )
 }
