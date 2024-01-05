@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import SelectPlan from './SelectPlan'
 
 function AsidePlan() {
     const numbers = [
@@ -30,9 +31,12 @@ function AsidePlan() {
     )
 
     return(
-        <>
-        {listNumbers}
-        </>
+        <div class='aside-plan-flex-container'>
+            <aside class='aside-step-col'>
+                {listNumbers}
+            </aside>
+            <SelectPlan />
+        </div>
     )
     {/*
                 <div class='aside-step-container'>
@@ -62,5 +66,4 @@ function AsidePlan() {
             </aside>
     */}
 }
-
 export default AsidePlan
