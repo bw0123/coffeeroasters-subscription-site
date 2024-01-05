@@ -1,13 +1,22 @@
 import { useState } from 'react'
 
 function AsidePlan() {
-    let asideItems = [
+    let asideIds = [
         "01",
         "02",
         "03",
         "04",
         "05",
     ]
+
+    let asideLabels = [
+        "Preferences",
+        "Bean Type",
+        "Quantity",
+        "Grind Option",
+        "Deliveries"
+    ]
+
     const [activeIndex, setActiveIndex] = useState(null)
 
     const changeStep = (e, index) => {
@@ -15,12 +24,12 @@ function AsidePlan() {
         setActiveIndex(index)
     }
 
-    return asideItems.map((value, index) => {
+    return asideIds.map((value, index) => {
         return(
             <>
                 <div class='aside-step-container' onClick={(e) => changeStep(e, index)}>  
                     <h4 class='aside-step-id' style={{ color: activeIndex === index ? '#0E8784' : '#83888F' }}>{value}</h4>
-                    <h4 class='aside-step-label'></h4>
+                    <h4 class='aside-step-label' style={{ color: activeIndex === index ? '#333D4B': '#83888F' }}>{asideLabels[index]}</h4>
                 </div>
                 <hr class='aside-hr'></hr>
             </>
