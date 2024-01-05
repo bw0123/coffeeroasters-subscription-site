@@ -1,6 +1,7 @@
 import AsidePlan from './AsidePlan'
 import Blackcup from '../assets/img/image-hero-blackcup.jpg'
 import StepsOvalDark from '../assets/icons/OvalDarkFill'
+import SelectPlan from './SelectPlan'
 
 function CreatePlan() {
     return(
@@ -44,6 +45,7 @@ function CreatePlan() {
                 <aside class='aside-step-col'>
                     <AsidePlan />
                 </aside>
+                <SelectPlan />
             </div>
         </div>
     )

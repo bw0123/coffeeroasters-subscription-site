@@ -18,7 +18,6 @@ function AsidePlan() {
     ]
 
     const [activeIndex, setActiveIndex] = useState(null)
-
     const changeStep = (e, index) => {
         console.log({ e })
         setActiveIndex(index)
