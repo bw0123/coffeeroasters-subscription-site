@@ -1,12 +1,12 @@
 import { useState } from 'react'
 
 function AsidePlan() {
-    let asideIds = [
-        "01",
-        "02",
-        "03",
-        "04",
-        "05",
+    const numbers = [
+        {id: 1, text: "01" },
+        {id: 2, text: "02"},
+        {id: 3, text: "03"},
+        {id: 4, text: "04"},
+        {id: 5, text: "05"},
     ]
 
     let asideLabels = [
@@ -17,25 +17,24 @@ function AsidePlan() {
         "Deliveries"
     ]
 
-    const [activeIndex, setActiveIndex] = useState(null)
-    const changeStep = (e, index) => {
-        console.log({ e })
-        setActiveIndex(index)
-    }
+    const [activeId, setActiveId] = useState(1)
 
-    return asideIds.map((value, index) => {
-        return(
-            <>
-                <div class='aside-step-container' onClick={(e) => changeStep(e, index)}>  
-                    <h4 class='aside-step-id' style={{ color: activeIndex === index ? '#0E8784' : '#83888F' }}>{value}</h4>
-                    <h4 class='aside-step-label' style={{ color: activeIndex === index ? '#333D4B': '#83888F' }}>{asideLabels[index]}</h4>
-                </div>
-                <hr class='aside-hr'></hr>
-            </>
-        )
-    })
+    const listNumbers = numbers.map(num => 
+        <>
+        <div class='aside-step-container' onClick={() => setActiveId(num.id)}>
+            <h4 class='aside-step-id' style={{ color: activeId === num.id ? '#0E8784' : '#83888F' }}>{num.text}</h4>
+            <h4 class='aside-step-label' style={{ color: activeId === num.id ? '#333D4B': '#83888F' }}>{asideLabels[num.id - 1]}</h4>
+        </div>
+        <hr class='aside-hr'></hr>
+        </>
+    )
 
-        {/* 
+    return(
+        <>
+        {listNumbers}
+        </>
+    )
+    {/*
                 <div class='aside-step-container'>
                     <h4 class='aside-step-id'>01</h4>
                     <h4 class='aside-step-label'>Preferences</h4>
