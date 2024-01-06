@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import SelectCard from '../utils/SelectCard'
+import { selectData } from '../utils/selectData'
 
 function AsidePlan() {
     const [activeId, setActiveId] = useState(1)
@@ -31,6 +32,19 @@ function AsidePlan() {
         </>
     )
 
+    const listSelectData = selectData.map(select => 
+            <SelectCard 
+                id={select.id}
+                question={select.question}
+                labelOne={select.labelOne}
+                descOne={select.descOne}
+                labelTwo={select.labelTwo}
+                descTwo={select.descTwo}
+                labelThree={select.labelThree}
+                descThree={select.descThree}
+            />      
+    )
+
     const toggle = () => {
         setShow(!show)
     }
@@ -41,13 +55,6 @@ function AsidePlan() {
                 {listNumbers}
             </aside>
             <section class='select-col'>
-                <div class='select-intro-flex-container'>
-                    <h2 class='select-question'>How do you drink your coffee?</h2>
-                    <p>
-                        <i class='arrow up' style={{ transform: show ? 'rotate(45deg)' : 'rotate(-135deg)' }}  onClick={toggle}></i>
-                    </p>
-                </div>
-                {show && <SelectCard />}   
             </section>
         </div>
     )
