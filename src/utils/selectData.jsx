@@ -1,4 +1,4 @@
-const selectData = [
+export const selectData = [
     {
         id: 1,
         question: "How do you drink your coffee?",

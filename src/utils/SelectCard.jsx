@@ -1,4 +1,12 @@
+import { useState } from 'react'
+
 function SelectCard(props) {
+    const [show, setShow] = useState(true)
+
+    const toggle = () => {
+        setShow(!show)
+    }
+
     return(
         <div class='select-flex-container'>
             <div class='select-intro-flex-container'>

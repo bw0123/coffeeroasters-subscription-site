@@ -4,7 +4,6 @@ import { selectData } from '../utils/selectData'
 
 function AsidePlan() {
     const [activeId, setActiveId] = useState(1)
-    const [show, setShow] = useState(true)
 
     const numbers = [
         {id: 1, text: "01" },
@@ -22,7 +21,7 @@ function AsidePlan() {
         "Deliveries"
     ]
 
-    const listNumbers = numbers.map(num => 
+    const listNumbers = numbers.map((num) => 
         <>
             <div class='aside-step-container' onClick={() => setActiveId(num.id)}>
                 <h4 class='aside-step-id' style={{ color: activeId === num.id ? '#0E8784' : '#83888F' }}>{num.text}</h4>
@@ -32,22 +31,18 @@ function AsidePlan() {
         </>
     )
 
-    const listSelectData = selectData.map(select => 
-            <SelectCard 
-                id={select.id}
-                question={select.question}
-                labelOne={select.labelOne}
-                descOne={select.descOne}
-                labelTwo={select.labelTwo}
-                descTwo={select.descTwo}
-                labelThree={select.labelThree}
-                descThree={select.descThree}
-            />      
-    )
-
-    const toggle = () => {
-        setShow(!show)
-    }
+    const listSelectData = selectData.map((select) => {
+        <SelectCard 
+            id={select.id}
+            question={select.question}
+            labelOne={select.labelOne}
+            descOne={select.descOne}
+            labelTwo={select.labelTwo}
+            descTwo={select.descTwo}
+            labelThree={select.labelThree}
+            descThree={select.descThree}
+        />       
+    })
 
     return(
         <div class='aside-plan-flex-container'>
@@ -55,6 +50,7 @@ function AsidePlan() {
                 {listNumbers}
             </aside>
             <section class='select-col'>
+                {listSelectData}
             </section>
         </div>
     )
