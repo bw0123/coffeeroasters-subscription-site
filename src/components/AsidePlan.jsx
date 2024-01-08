@@ -7,7 +7,7 @@ function AsidePlan() {
     const [isActive, setIsActive] = useState(true)
 
     const handleBoth = (id) => {
-        setActiveId(num.id)
+        setActiveId(id)
     }
 
     const numbers = [
