@@ -1,35 +1,27 @@
-import { useState } from 'react'
-
-function SelectCard(props) {
-    const [show, setShow] = useState(true)
-
-    const toggle = () => {
-        setShow(!show)
-    }
-
+function SelectCard({ question, labelOne,  descOne, labelTwo, descTwo, labelThree,  descThree, isActive, onShow }) {
     return(
         <div class='select-flex-container'>
             <div class='select-intro-flex-container'>
-                <h2 class='select-question'>{props.question}</h2>
+                <h2 class='select-question'>{question}</h2>
                 <p>
-                    <i class='arrow up' style={{ transform: show ? 'rotate(45deg)' : 'rotate(-135deg)' }}  onClick={toggle}></i>
+                    <i class='arrow up' style={{ transform: isActive ? 'rotate(45deg)' : 'rotate(-135deg)' }}  onClick={onShow}></i>
                 </p>
             </div>
-            <div class='select-card-container'>
+            <div class='select-flex-container' >
                 <div class='select-card-info'>
-                    <h4 class='select-label'>{props.labelOne}</h4>
-                    <p class='select-desc'>{props.descOne}</p>
+                    <h4 class='select-label'>{labelOne}</h4>
+                    <p class='select-desc'>{descOne}</p>
                 </div>
                 <div class='select-card-container'>
                     <div class='select-card-info'>
-                        <h4 class='select-label'>{props.labelTwo}</h4>
-                        <p class='select-desc'>{props.descTwo}</p>
+                        <h4 class='select-label'>{labelTwo}</h4>
+                        <p class='select-desc'>{descTwo}</p>
                     </div>
                 </div>
                 <div class='select-card-container'>
                     <div class='select-card-info'>
-                        <h4 class='select-label'>{props.labelThree}</h4>
-                        <p class='select-desc'>{props.descThree}</p>
+                        <h4 class='select-label'>{labelThree}</h4>
+                        <p class='select-desc'>{descThree}</p>
                     </div>
                 </div>
             </div>

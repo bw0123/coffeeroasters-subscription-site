@@ -1,6 +1,6 @@
 export const selectData = [
     {
-        id: 1,
+        id: 1, // Used in JSX as a key
         question: "How do you drink your coffee?",
         labelOne: "Capsule",
         descOne: "Compatible with\nNespresso systems and\nsimilar brewers",
@@ -18,7 +18,8 @@ export const selectData = [
         descTwo: "Just like regular coffee,\nexcept the caffeine has\nbeen removed",
         labelThree: "Blended",
         descThree: "Combination of two or\nthree dark roasted\nbeans of organic coffees"
-    },{
+    },
+    {
         id: 3,
         question: "How much would you like?",
         labelOne: "250g",
@@ -27,7 +28,8 @@ export const selectData = [
         descTwo: "Perfect option for a\ncouple. Yields about 40\ndelectable cups.",
         labelThree: "1000g",
         descThree: "Perfect for offices and\nevents. Yields about 90\ndelightful cups."
-    },{
+    },
+    {
         id: 4,
         question: "Want us to grind them?",
         labelOne: "Wholebean",
@@ -36,7 +38,8 @@ export const selectData = [
         descTwo: "For drip or pour-over\ncoffee methods such as\nV60 or Aeropress",
         labelThree: "Cafetiére",
         descThree: "Course ground beans\nspecially suited for\nfrench press coffee"
-    },{
+    },
+    {
         id: 5,
         question: "How often should we deliver?",
         labelOne: "Every week",
