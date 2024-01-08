@@ -10,6 +10,9 @@ body {
   background-color: #FEFCF7;
   font-family: 'Barlow', sans-serif;
   line-height: 26px;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
 main, section {
@@ -147,6 +150,7 @@ a:link:hover {
 
 footer {
   padding: 30px 70px;
+  bottom: 0;
 }
 
 #footer-links-container {
