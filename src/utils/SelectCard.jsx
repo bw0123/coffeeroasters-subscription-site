@@ -7,24 +7,30 @@ function SelectCard({ question, labelOne,  descOne, labelTwo, descTwo, labelThre
                     <i class='arrow up' style={{ transform: isActive ? 'rotate(45deg)' : 'rotate(-135deg)' }}  onClick={onShow}></i>
                 </p>
             </div>
-            <div class='select-flex-container' >
-                <div class='select-card-info'>
-                    <h4 class='select-label'>{labelOne}</h4>
-                    <p class='select-desc'>{descOne}</p>
-                </div>
-                <div class='select-card-container'>
-                    <div class='select-card-info'>
-                        <h4 class='select-label'>{labelTwo}</h4>
-                        <p class='select-desc'>{descTwo}</p>
+            {isActive && (
+                <div class='select-flex-container' >
+                    <div class='select-card-container'>
+                        <div class='select-card-info'>
+                            <h4 class='select-label'>{labelOne}</h4>
+                            <p class='select-desc'>{descOne}</p>
+                        </div>
                     </div>
-                </div>
-                <div class='select-card-container'>
-                    <div class='select-card-info'>
-                        <h4 class='select-label'>{labelThree}</h4>
-                        <p class='select-desc'>{descThree}</p>
+                    <div class='select-card-container'>
+                        <div class='select-card-info'>
+                            <h4 class='select-label'>{labelTwo}</h4>
+                            <p class='select-desc'>{descTwo}</p>
+                        </div>
                     </div>
-                </div>
+                    <div class='select-card-container'>
+                        <div class='select-card-info'>
+                            <h4 class='select-label'>{labelThree}</h4>
+                            <p class='select-desc'>{descThree}</p>
+                        </div>
+                    </div>
             </div>
+            )
+        }
+            
         </div>
     )
 }
