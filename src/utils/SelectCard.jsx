@@ -1,6 +1,6 @@
 function SelectCard({ question, labelOne,  descOne, labelTwo, descTwo, labelThree,  descThree, isActive, onShow }) {
     return(
-        <div class='select-flex-container'>
+        <div>
             <div class='select-intro-flex-container'>
                 <h2 class='select-question'>{question}</h2>
                 <p>
