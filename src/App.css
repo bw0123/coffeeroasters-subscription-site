@@ -150,6 +150,7 @@ a:link:hover {
 
 footer {
   padding: 30px 70px;
+  margin-top: auto;
   bottom: 0;
 }
 
@@ -329,7 +330,7 @@ footer {
 /** Aside + Plan div **/
 .aside-plan-flex-container {
   display: flex;
-  margin: 10% 0;
+  margin: 10% 0 40% 0;
 }
 
 /** Aside tag **/
