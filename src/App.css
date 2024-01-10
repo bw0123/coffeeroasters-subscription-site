@@ -402,9 +402,16 @@ footer {
   width: 230px;
 }
 
+.select-card-container:hover {
+  background: #FDD6BA;
+  transition: 0.3s;
+}
+
 .select-card-info {
   padding: 24px;
 }
+
+
 
 .select-label, .select-desc {
   color: #333D4B;

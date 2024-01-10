@@ -8,7 +8,7 @@ function SelectCard({ question, labelOne,  descOne, labelTwo, descTwo, labelThre
                 </p>
             </div>
             {isActive && (
-                <div class='select-flex-container' >
+                <div class='select-flex-container'>
                     <div class='select-card-container'>
                         <div class='select-card-info'>
                             <h4 class='select-label'>{labelOne}</h4>
