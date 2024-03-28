@@ -2,7 +2,6 @@ import { useState } from 'react'
 
 function AsidePlan() {
     const [activeId, setActiveId] = useState(1)
-    const [isActive, setIsActive] = useState(true)
     const [preference, setPreference] = useState('')
 
     const numbers = [
