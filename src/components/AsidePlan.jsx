@@ -51,6 +51,12 @@ function AsidePlan() {
             </aside>
             <section class='select-col'>
                 {listSelectData}
+                <div class='order-summary-container'>
+                    <div class='order-summary-content'>
+                        <p>ORDER SUMMARY</p>
+                        <h4>"I drink my coffee as _, with a _ type of bean. _ ground ala _, sent to me _."</h4>
+                    </div>
+                </div>
             </section>
         </div>
     )

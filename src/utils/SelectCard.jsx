@@ -30,7 +30,6 @@ function SelectCard({ question, labelOne,  descOne, labelTwo, descTwo, labelThre
             </div>
             )
         }
-            
         </div>
     )
 }

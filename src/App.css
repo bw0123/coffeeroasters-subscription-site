@@ -55,7 +55,7 @@ h4 {
 }
 
 img, button,
-.why-choose-container, .why-card-container, .quality-container,  .how-container-dark, .select-card-container { 
+.why-choose-container, .why-card-container, .quality-container,  .how-container-dark, .select-card-container, .order-summary-container { 
   border-radius: 10px;
 }
 
@@ -102,7 +102,7 @@ a,
 }
 
 /* Dark grey color */
-footer, .why-choose-container, .quality-container, .how-container-dark {
+footer, .why-choose-container, .quality-container, .how-container-dark, .order-summary-container {
   background-color: #2C343E;
 }
 
@@ -359,6 +359,7 @@ footer {
   text-align: start;
   height: 355px;
   width: 730px;
+  margin-bottom: 30%;
 }
 
 .select-intro-flex-container {
@@ -411,10 +412,12 @@ footer {
   padding: 24px;
 }
 
-
-
 .select-label, .select-desc {
   color: #333D4B;
 }
 
-
+/** Order Summary **/
+.order-summary-content {
+  padding: 20px 50px;
+  color: #FFFFFF;
+}
