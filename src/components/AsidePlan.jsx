@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 function AsidePlan() {
     const [activeId, setActiveId] = useState(1)
-    const [preference, setPreference] = useState('')
+    const [preference, setPreference] = useState('Capsule')
 
     const numbers = [
         {id: 1, text: "01" },
@@ -30,6 +30,12 @@ function AsidePlan() {
         </>
     )
 
+    let updatePreference = (e) => {
+        if(preference != e.target.textContent) {
+            setPreference(e.target.textContent)
+        }
+    }
+
     return(
         <div class='aside-plan-flex-container'>
             <aside class='aside-step-col'>
@@ -48,19 +54,19 @@ function AsidePlan() {
                         <div class='select-flex-container'>
                         <div class='select-card-container'>
                             <div class='select-card-info'>
-                                <h4 class='select-label'>Capsule</h4>
+                                <h4 class='select-label' onClick={updatePreference}>Capsule</h4>
                                 <p class='select-desc'>Compatible with Nespresso systems and similar brewers</p>
                             </div>
                         </div>
                         <div class='select-card-container'>
                             <div class='select-card-info'>
-                                <h4 class='select-label'>Filter</h4>
+                                <h4 class='select-label' onClick={updatePreference}>Filter</h4>
                                 <p class='select-desc'>Pour over or drip methods like Aeropress, Chemex, and V60</p>
                             </div>
                         </div>
                         <div class='select-card-container'>
                             <div class='select-card-info'>
-                                <h4 class='select-label'>Espresso</h4>
+                                <h4 class='select-label' onClick={updatePreference}>Espresso</h4>
                                 <p class='select-desc'>Dense and finely ground beans for an intense, flavorful experience</p>
                             </div>
                         </div>
