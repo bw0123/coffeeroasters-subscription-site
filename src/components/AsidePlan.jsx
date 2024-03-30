@@ -74,7 +74,7 @@ function AsidePlan() {
                     <div class='select-intro-flex-container'>
                         <h2 class='select-question'>How do you drink your coffee?</h2>
                         <p>
-                            <i class='arrow up' style={{ transform: activeId === 1 ? 'rotate(45deg)' : 'rotate(-135deg)' }}></i>
+                            <i class='arrow up' onClick={() => setActiveId(1)} style={{ transform: activeId === 1 ? 'rotate(45deg)' : 'rotate(-135deg)' }}></i>
                         </p>
                     </div>
                     {activeId === 1 && (
@@ -104,7 +104,7 @@ function AsidePlan() {
                     <div class='select-intro-flex-container'>
                         <h2 class='select-question'>What type of coffee?</h2>
                         <p>
-                            <i class='arrow up' style={{ transform: activeId === 2 ? 'rotate(45deg)' : 'rotate(-135deg)' }}></i>
+                            <i class='arrow up' onClick={() => setActiveId(2)} style={{ transform: activeId === 2 ? 'rotate(45deg)' : 'rotate(-135deg)' }}></i>
                         </p>
                     </div>
                     {activeId === 2 && (
@@ -134,7 +134,7 @@ function AsidePlan() {
                     <div class='select-intro-flex-container'>
                         <h2 class='select-question'>How much would you like?</h2>
                         <p>
-                            <i class='arrow up' style={{ transform: activeId === 3 ? 'rotate(45deg)' : 'rotate(-135deg)' }}></i>
+                            <i class='arrow up' onClick={() => setActiveId(3)} style={{ transform: activeId === 3 ? 'rotate(45deg)' : 'rotate(-135deg)' }}></i>
                         </p>
                     </div>
                     {activeId === 3 && (
@@ -164,7 +164,7 @@ function AsidePlan() {
                     <div class='select-intro-flex-container'>
                         <h2 class='select-question'>Want us to grind them?</h2>
                         <p>
-                            <i class='arrow up' style={{ transform: activeId === 4 ? 'rotate(45deg)' : 'rotate(-135deg)' }}></i>
+                            <i class='arrow up' onClick={() => setActiveId(4)} style={{ transform: activeId === 4 ? 'rotate(45deg)' : 'rotate(-135deg)' }}></i>
                         </p>
                     </div>
                     {activeId === 4 && (
@@ -194,7 +194,7 @@ function AsidePlan() {
                     <div class='select-intro-flex-container'>
                         <h2 class='select-question'>How often should we deliver?</h2>
                         <p>
-                            <i class='arrow up' style={{ transform: activeId === 5 ? 'rotate(45deg)' : 'rotate(-135deg)' }}></i>
+                            <i class='arrow up' onClick={() => setActiveId(5)} style={{ transform: activeId === 5 ? 'rotate(45deg)' : 'rotate(-135deg)' }}></i>
                         </p>
                     </div>
                     {activeId === 5 && (
