@@ -55,7 +55,7 @@ h4 {
 }
 
 img, button,
-.why-choose-container, .why-card-container, .quality-container,  .how-container-dark, .select-card-container, .order-summary-container { 
+.why-choose-container, .why-card-container, .quality-container,  .how-container-dark, .select-card-container { 
   border-radius: 10px;
 }
 
@@ -420,4 +420,9 @@ footer {
 .order-summary-content {
   padding: 10px 50px;
   color: #FFFFFF;
+}
+
+.order-summary-content > h4 {
+  line-height: 40px;
+  font-weight: 700;
 }
