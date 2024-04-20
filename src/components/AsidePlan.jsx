@@ -72,7 +72,7 @@ function AsidePlan() {
             <section class='select-col'>
                 <div>
                     <div class='select-intro-flex-container'>
-                        <h2 class='select-question'>How do you drink your coffee?</h2>
+                        <h2 class='select-question' onClick={() => setActiveId(1)}>How do you drink your coffee?</h2>
                         <p>
                             <i class='arrow up' onClick={() => setActiveId(1)} style={{ transform: activeId === 1 ? 'rotate(45deg)' : 'rotate(-135deg)' }}></i>
                         </p>
@@ -102,7 +102,7 @@ function AsidePlan() {
                 </div>
                 <div>
                     <div class='select-intro-flex-container'>
-                        <h2 class='select-question'>What type of coffee?</h2>
+                        <h2 class='select-question' onClick={() => setActiveId(2)}>What type of coffee?</h2>
                         <p>
                             <i class='arrow up' onClick={() => setActiveId(2)} style={{ transform: activeId === 2 ? 'rotate(45deg)' : 'rotate(-135deg)' }}></i>
                         </p>
@@ -132,7 +132,7 @@ function AsidePlan() {
                 </div>
                 <div>
                     <div class='select-intro-flex-container'>
-                        <h2 class='select-question'>How much would you like?</h2>
+                        <h2 class='select-question' onClick={() => setActiveId(3)}>How much would you like?</h2>
                         <p>
                             <i class='arrow up' onClick={() => setActiveId(3)} style={{ transform: activeId === 3 ? 'rotate(45deg)' : 'rotate(-135deg)' }}></i>
                         </p>
@@ -162,7 +162,7 @@ function AsidePlan() {
                 </div>
                 <div>
                     <div class='select-intro-flex-container'>
-                        <h2 class='select-question'>Want us to grind them?</h2>
+                        <h2 class='select-question' onClick={() => setActiveId(4)}>Want us to grind them?</h2>
                         <p>
                             <i class='arrow up' onClick={() => setActiveId(4)} style={{ transform: activeId === 4 ? 'rotate(45deg)' : 'rotate(-135deg)' }}></i>
                         </p>
@@ -192,7 +192,7 @@ function AsidePlan() {
                 </div>
                 <div>
                     <div class='select-intro-flex-container'>
-                        <h2 class='select-question'>How often should we deliver?</h2>
+                        <h2 class='select-question' onClick={() => setActiveId(5)}>How often should we deliver?</h2>
                         <p>
                             <i class='arrow up' onClick={() => setActiveId(5)} style={{ transform: activeId === 5 ? 'rotate(45deg)' : 'rotate(-135deg)' }}></i>
                         </p>
