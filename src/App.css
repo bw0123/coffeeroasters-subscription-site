@@ -426,3 +426,8 @@ footer {
   line-height: 40px;
   font-weight: 700;
 }
+
+/* Create my plan! Button */
+#create-my-plan-btn {
+  background: #66D2CF;
+}
