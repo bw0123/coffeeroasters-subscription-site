@@ -226,6 +226,9 @@ function AsidePlan() {
                         <h4>"I drink my coffee as {preference}, with a {bean} type of bean. {quantity} ground ala {grind}, sent to me {deliveries}."</h4>
                     </div>
                 </div>
+                <button class='create-my-plan-btn'>
+                    <h4>Create my plan!</h4>
+                </button>
             </section>
         </div>
     )
