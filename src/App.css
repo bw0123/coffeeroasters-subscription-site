@@ -430,4 +430,7 @@ footer {
 /* Create my plan! Button */
 #create-my-plan-btn {
   background: #66D2CF;
+  float: right;
+  margin-top: 5%;
 }
+
