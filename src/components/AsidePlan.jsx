@@ -7,6 +7,7 @@ function AsidePlan() {
     const [quantity, setQuantity] = useState('250g')
     const [grind, setGrind] = useState('Wholebean')
     const [deliveries, setDeliveries] = useState('Every Week')
+    const [displayModal, setDisplayModal] = useState(false)
 
     const numbers = [
         {id: 1, text: "01" },
@@ -226,8 +227,23 @@ function AsidePlan() {
                         <h4>"I drink my coffee as {preference}, with a {bean} type of bean. {quantity} ground ala {grind}, sent to me {deliveries}."</h4>
                     </div>
                 </div>
-                <button id='create-my-plan-btn'>Create my plan!</button>
+                <button class='create-btn'>Create my plan!</button>
             </section>
+                <div class='modal'>
+                        <div class='modal-header'>
+                            <h2 class='modal-title'>Order Summary</h2>
+                        </div>
+                        <div class='modal-desc'>
+                            <h4>"I drink my coffee as {preference}, with a {bean} type of bean. {quantity} ground ala {grind}, sent to me {deliveries}."</h4>
+                            <p>Is this correct? You can proceed to checkout or go back to<br></br>
+                                plan selection if something is off. Subscription discount codes can also be redeemed at the checkout.
+                            </p>
+                        </div>
+                        <div class='modal-price-flex'>
+                            <h3 class='modal-price'>$14.00 / mo</h3>
+                            <button id='modal-checkout-btn'>Checkout</button>
+                        </div>
+                </div>
         </div>
     )
 }

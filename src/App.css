@@ -26,7 +26,8 @@ h1, h3, h3, h4, button,
 .main-bg-txt-container > h2,
 #commitment-title,
 #quality-title,
-.select-question {
+.select-question,
+.modal-title, .modal-desc > h4 {
   font-family: 'Fraunces', serif;
 }
 
@@ -64,7 +65,6 @@ button {
   font-size: 1.1em;
   padding: 15px 30px;
 }
-
 
 /* Custom Buttons */
 .main-btn-default {
@@ -427,10 +427,63 @@ footer {
   font-weight: 700;
 }
 
-/* Create my plan! Button */
-#create-my-plan-btn {
-  background: #66D2CF;
+/* Create my plan & Modal checkout btn */
+.create-btn {
   float: right;
   margin-top: 5%;
 }
 
+.create-btn,
+#modal-checkout-btn {
+  background: #66D2CF;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #FFFFFF;
+  width: 540px;
+  max-width: 80%;
+}
+
+.modal-header {
+  display: flex;
+  background: #333D4B;
+  justify-content: space-between;
+  align-items: center;
+  height: 140px;
+}
+
+.modal-header,
+.modal-desc {
+  padding: 10px 20px;
+  text-align: start;
+}
+
+.modal-title {
+  color: #FFFFFF;
+  margin-left: 5%;
+}
+
+.modal-desc {
+  margin-left: 5%;
+}
+
+.modal-desc > h4 {
+  color: #83888F;
+}
+
+.modal-desc > p {
+  font-family: Barlow, sans-serif;
+  line-height: 26px;
+  margin-top: -20px;
+}
+
+.modal-price-flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
